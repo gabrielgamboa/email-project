@@ -1,0 +1,4 @@
+1. Colocar uma espécie de página inicial pro usuário "setar" o seu email
+2. Criar alguma view inicial pedindo pro usuário colocar seu email. 
+3. Armazenar o email no localstorage do navegador
+4. Deixar o campo de attachments não obrigatório.

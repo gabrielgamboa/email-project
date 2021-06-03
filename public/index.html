@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Gambôa e-mails</title>
+</head>
+
+<body>
+  
+</body>
+  <div class="container">
+    <h1 class="title"> Aplicação de envio de e-mails com Nodemailer </h1>
+    <form action="/sendemail" method="POST" enctype="multipart/form-data">
+      <div class="form-item">
+        <input type="email" name="to" id="to" placeholder="Para" required>
+      </div>
+
+      <div class="form-item">
+        <input type="text" name="subject" id="subject" placeholder="Assunto" required>
+      </div>
+
+      <div class="form-item">
+        <textarea name="body" id="body" cols="30" rows="10" placeholder="Escreva aqui seu texto" required></textarea>
+      </div>
+
+      <div class="form-item">
+        <label for="attachment">Anexo:</label>
+        <input type="file" name="image" id="image">
+      </div>
+
+      <div class="form-item">
+        <button class="send-button">
+          Enviar e-mail
+        </button>
+      </div>
+    </form>
+  </div>
+</html>
